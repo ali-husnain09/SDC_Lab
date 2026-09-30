@@ -1,0 +1,45 @@
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## Logs
+*.log
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+## Virtual environments
+.venv/
+venv/
+env/
+
+## Build/artifacts
+build/
+dist/
+*.egg-info/
+
+## Local env files
+.env
+.env.*
+
+## Project-specific folders (including nested)
+# Ignore Lab_1 folder and any nested instances
+
+# Ignore .vscode folders anywhere (including inside Lab_1)
+.vscode/
+**/.vscode/
+# Ignore bin folders anywhere (including inside Lab_1)
+bin/
+**/bin/
